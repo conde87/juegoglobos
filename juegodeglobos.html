@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>juego de globos</title>
+    <div>
+<h3>Juegos de globos</h3>
+</div>
+<style>
+        #lienzo{
+         width: 1300px;
+         height:500px;
+         background-image: url(img/cielo.jpg);
+         position: relative;
+         overflow: hidden;
+    }
+ #globo{
+       width: 120px;
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        
+    }
+    
+     #globo2{
+       width: 120px;
+        height: 200px;
+         position: absolute;
+         left: 1150px;
+         bottom: 0;
+    }
+    #globo3{
+       width: 120px;
+        height: 200px;
+         position: absolute;
+         left: 600px;
+         bottom: 0;
+    }
+
+        #globo4{
+       width: 120px;
+        height: 200px;
+         position: absolute;
+         left: 250px;
+         bottom: 0;
+    }
+        #globo5{
+       width: 120px;
+        height: 200px;
+         position: absolute;
+         right: 250px;
+         bottom: 0;
+    }
+    </style>
+</head>
+<body>
+<!--    ANIMACION-->
+<div id="lienzo">
+   <img id="globo" src="img/globo1.png">
+    <img id="globo2" src="img/globo2.png">
+     <img id="globo3" src="img/globo3.png">
+     <img id="globo4" src="img/globo4.png">
+     <img id="globo5" src="img/globo5.png">
+    </div>
+<button>Pulsame</button>
+      <!-- JQUERY LIBRERIA SCRIPT PONER ABAJO -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- SCRIPT JQUERY CDN -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="globos.js"></script>
+</body>
+</html>
